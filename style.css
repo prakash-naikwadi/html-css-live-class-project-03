@@ -1,0 +1,148 @@
+/* Design Systems
+
+Fonts:
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Red Rose', cursive;
+
+*/
+
+/* ------------------- */
+/*     Global  Reset         */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset Font Weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+/* set up the body */
+body {
+  font-family: "Red Rose", cursive;
+  font-size: 1.6rem;
+  background-color: #2b2922;
+  height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* ------------------- */
+/*     Navbar Section   */
+/* ------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 2.4rem 3.2rem 2.4rem;
+}
+
+.logo {
+  width: 12.4rem;
+}
+
+.list {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.534);
+  list-style: none;
+}
+
+.list li:hover {
+  color: #fff;
+}
+
+.button-small {
+  padding: 1.2rem 3.2rem;
+  background-color: #2b2922;
+  border: 1px solid #a77b06;
+  border-radius: 7px;
+  color: #a77b06;
+  font-size: 1.6rem;
+}
+
+/* ------------------- */
+/*     Hero Section   */
+/* ------------------- */
+
+.hero {
+  /* max-width: 92rem; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 6.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 3.9rem;
+  color: rgba(255, 255, 255, 0.829);
+  padding: 0 2.4rem 0 2.4rem;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 6.4rem;
+  max-width: 55%;
+}
+
+.hero-subheading {
+  max-width: 35%;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+.hero-image {
+  /* height: 10vh; */
+  /* width: 100%; */
+  height: 40vh;
+  background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+}
