@@ -1,10 +1,10 @@
-## ⭐ HTML CSS Template Project 03 ⭐
+## ⭐ Law Home Page Project 03 ⭐
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
 <br>
 
-## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/html-css-live-class-project-03/">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/law-home-page/">**Visit Now** 🚀</a>
 
 <br>
 
